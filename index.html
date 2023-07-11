@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>index</title>
+</head>
+<body>
+  <!--Header Section Starts-->
+  <header>
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>Nihonto</a>
+    <nav class="navbar">
+      <a class="active" href="#home">home</a>
+      <a href="#dishes">dishes</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#review">review</a>
+      <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+      <i class="fas fa-search" id="search-icon"></i>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+  </header>
+  <!--Header Section Ends-->
+
+  <!--Search Tool-->
+  <form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+  </form>
+
+  <!--Home section starts-->
+  <section class="home" id="home">
+    <div class="swiper-container home-slider">
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>Our Special Dishes</span>
+            <h3>Dragon Roll Sushi</h3>
+            <p>The traditional dragon roll sushi is made of shrimp tempura and cucumber which are tucked inside 
+              the nori and with thinly avocado slices which are layered on top of the sushi roll. The main reason 
+              for the name of dragon roll sushi is when it’s sliced, the artistically arranged sushi resembles the 
+              scales of a dragon.</p>
+              <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="Dragon Roll Sushi.png" alt="Dragon Roll Sushi">
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>Our Special Dishes</span>
+            <h3>Beef Ramen</h3>
+            <p>Beef ramen is another version of ramen with a twist on the ingredients. Beef ramen is made by simmering beef bones for hours to achieve a flavorful stock.
+              In general, other main ingredients that you need for every ramen dish are retained, including ramen noodles, hard-boiled eggs, and vegetables.
+              Beef ramen, besides being cooked from beef stock, will be served with some slices of beef from any beef cut you like, such as brisket, flank steak, or sirloin.</p>
+              <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="Beef Ramen.png" alt="Beef Ramen">
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>Our Special Dishes</span>
+            <h3>Tempura Udon</h3>
+            <p>Tempura Udon is a popular Japanese noodle soup with thick wheat noodles. It is topped with crunchy 
+              prawn tempura, fish cake and chopped shallots/scallions. Dashi-based broth has saltiness and a hint 
+              of sweetness that goes so well with tempura.</p>
+              <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="Udon.png" alt="Udon">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!--Home section ends-->
+
+  <!--Dishes section starts-->
+
+  <section class="dishes" id="dishes">
+    <h3 class="sub-heading">our dishes</h3>
+    <h3 class="heading">popular dishes</h3>
+
+    <div class="box-container">
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="takoyaki.jpg" alt="">
+        <h3>takoyaki</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp10.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="sashimi.jpg" alt="">
+        <h3>sashimi</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <span>Rp20.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="onigiri.jpg" alt="">
+        <h3>onigiri</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp23.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="shabu shabu.jpg" alt="">
+        <h3>shabu-shabu</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <span>Rp30.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="dorayaki.JPG" alt="">
+        <h3>dorayaki</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp7.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="tempura.jpg" alt="">
+        <h3>tempura</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>Rp5.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="yakiniku.jpg!d" alt="">
+        <h3>yakiniku</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <span>Rp30.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="yakitori.jpg" alt="">
+        <h3>yakitori</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <span>Rp15.000,00</span>
+        <a href="#" class="btn">add to cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Dishes section ends-->
+
+  <!--About section starts-->
+
+  <section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h3 class="heading">why choose us?</h3>
+
+    <div class="row">
+      <div class="image">
+        <img src="about.png" alt="">
+      </div>
+
+      <div class="content">
+        <h3>best Japanese cuisine in Indonesia</h3>
+        <p>Our Japanese food is made from fresh ingredients that imported from Japan. Through your ups and down, 
+          Nihonto will serve our best.</p>
+        <p>Nihonto also awarded for the best restaurant design 2022 in Jakarta, the best cuisine website design 
+          2022, and first place for Japanese cuisine in Indonesia.</p>
+        <div class="icons-container">
+          <div class="icons">
+            <i class="fas fa-shipping-fast"></i>
+            <span>free delivery</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-dollar-sign"></i>
+            <span>easy payments</span>
+          </div>
+          <div class="icons">
+            <i class="fas fa-headset"></i>
+            <span>24/7 service</span>
+          </div>
+        </div>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!--About section ends-->
+
+  <!--Menu section starts-->
+
+  <section class="menu" id="menu">
+    <h3 class="sub-heading">our menu</h3>
+    <h3 class="heading">today's speciaLity</h3>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="miso sup.jfif" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Miso soup</h3>
+          <p>Miso soup contains linoleic acid which helps the skin stay soft and clear. Eating miso soup can help 
+            to reduce your risk for prostate, breast, colon and lung cancers.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp5.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="edamame.jpg" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>edamame</h3>
+          <p>Edamame is used especially by women to counteract breast pain. It has also been found that soy beans
+            assist in preventing breast cancer.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp3.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="curry rice.jpeg" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>curry rice</h3>
+          <p>Japanese curry is a variety of curry all by itself. while most curries are thickened with coconut
+            milk or yogurt, japanaese curry is roux based and tends to be mild and somewhat sweet.
+          </p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp17.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="sukiyaki.jpg" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>sukiyaki</h3>
+          <p>Sukiyaki is a Japanese dish that is prepared and served in the nabemono style. It consists of meat 
+            which is slowly cooked or simmered at the table, alongside vegetables and other ingredients, in a 
+            shallow iron pot in a mixture of soy sauce, sugar, and mirin.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp26.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="omurice.jfif" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>omurice</h3>
+          <p>Omurice is an example of yōshoku consisting of an omelette made with fried rice and thin, 
+            fried scrambled eggs, usually topped with ketchup.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp12.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="karage.jpg" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>karage</h3>
+          <p>Karaage is a popular Japanese dish that is most commonly made with chicken. To prepare the dish, small 
+            pieces of chicken, meat, or fish are marinated, dredged in flour, and deep-fried. The crispy bits of meat 
+            are traditionally served with fresh lemon wedges and mayonnaise for dipping.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp16.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="teriyaki.jfif" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <h3>beef teriyaki</h3>
+          <p>beef teriyaki is a beef smeared by teriyaki sauce that consists of soy sauce, mirin, sesame oil, 
+            fish sauce, ginger, garlic and brown sugar.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp20.000,00</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="soba.jpg" alt="">
+          <a href="#" class="fas fa-heart"></a>
+        </div>
+        <div class="content">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>soba</h3>
+          <p>Soba is a thin Japanese noodle made from buckwheat. The noodles are served either chilled with a 
+            dipping sauce, or hot in a noodle soup. The variety Nagano soba includes wheat flour.</p>
+          <a href="#" class="btn">add to cart</a>
+          <span class="price">Rp25.000,00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Menu section ends-->
+
+  <!--Review section starts-->
+
+  <section class="review" id="review">
+    <h3 class="sub-heading">customer's review</h3>
+    <h1 class="heading">what they say</h1>
+
+    <div class="swiper-container review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="dio.jpg" alt="">
+            <div class="user-info">
+              <h3>Agent Hitler</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>Makanannya layak dapat bintang 5, dan pelayanannya juga sangat sopan.</p>
+        </div>
+
+        <div class="swiper-slide slide">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="reza.jpg" alt="">
+            <div class="user-info">
+              <h3>Mas Jody</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>Pelayanannya sungguh mantap, penyajian makanannya cepat dan makanannya sangat enak, saya senang kesana dan saya akan datang lagi</p>
+        </div>
+
+        <div class="swiper-slide slide">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="amar.png" alt="">
+            <div class="user-info">
+              <h3>James</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>karena saya wibu, saya suka makanan jepang karena teringat dengan waifu saya jadi saya sepekan sekali
+            datang ke restoran ini, makanannya sangat enak
+          </p>
+        </div>
+
+        <div class="swiper-slide slide">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="abil.png" alt="">
+            <div class="user-info">
+              <h3>Kylo ren</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>Ini makanan apa? Ini sangat enak! Di planet death star tidak ada makanan macam ini. saya beri bintang
+            5 untuk makanannya dan restorannya
+          </p>
+        </div>
+
+        <div class="swiper-slide slide">
+          <i class="fas fa-quote-right"></i>
+          <div class="user">
+            <img src="adam.jpg" alt="">
+            <div class="user-info">
+              <h3>NeGative</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>Makanannya sangat enak dan restorannya sangat mewah. Pelayanannya juga sangat cepat dan proffesional. 
+            Ya iyalah saya yang buat</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Review section ends-->
+
+  <!--Order section starts-->
+
+  <section class="order" id="order">
+    <h3 class="sub-heading">order now</h3>
+    <h1 class="heading">free and fast</h1>
+
+    <form action="">
+      <div class="input-box">
+        <div class="input">
+          <span>your name</span>
+          <input type="text" placeholder="enter your name">
+        </div>
+        <div class="input">
+          <span>your number</span>
+          <input type="text" placeholder="enter your number">
+        </div>
+      </div>
+
+      <div class="input-box">
+        <div class="input">
+          <span>your order</span>
+          <input type="text" placeholder="enter food name">
+        </div>
+        <div class="input">
+          <span>your additional food</span>
+          <input type="text" placeholder="extra with food">
+        </div>
+      </div>
+
+      <div class="input-box">
+        <div class="input">
+          <span>how much</span>
+          <input type="text" placeholder="how many orders">
+        </div>
+        <div class="input">
+          <span>date and time</span>
+          <input type="datetime-local">
+        </div>
+      </div>
+
+      <div class="input-box">
+        <div class="input">
+          <span>your address</span>
+          <textarea name="" placeholder="enter your address" id="" cols="" rows=""></textarea>
+        </div>
+        <div class="input">
+          <span>your message</span>
+          <textarea name="" placeholder="write your message" id="" cols="" rows=""></textarea>
+        </div>
+      </div>
+
+      <input type="submit" value="order now" class="btn">
+    </form>
+  </section>
+
+  <!--Order section ends-->
+
+  <!--Footer section starts-->
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>locations</h3>
+        <a href="#">Jakarta</a>
+        <a href="#">Bekasi</a>
+        <a href="#">Cibodas</a>
+        <a href="#">Depok</a>
+        <a href="#">Lampung</a>
+        <a href="#">Papua</a>
+      </div>
+
+      <div class="box">
+        <h3>links</h3>
+        <a href="#">home</a>
+        <a href="#">dishes</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">review</a>
+        <a href="#">order</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="https://wa.me/6282113234664">+6282113234664</a>
+        <a href="mailto:adamhaidar252525@gmail.com">adamhaidar252525@gmail.com</a>
+        <a href="#">Jl. Dahlia Raya no.17 Beji Timur, Depok</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="https://www.instagram.com/dzaky1213/">Instagram</a>
+        <a href="https://www.facebook.com/adam.dzaky.100">Facebook</a>
+        <a href="https://www.linkedin.com/in/adam-dzaky-00b87421a/">linkedin</a>
+      </div>
+    </div>
+
+    <div class="credit">copyright @ 2022 by <span>Adam Haidar Dzaky</span></div>
+  </section>
+
+  <!--footer section ends-->
+  
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
